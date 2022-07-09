@@ -8,7 +8,7 @@ public class Tool {
 
     @Id
     @GeneratedValue(
-            strategy = GenerationType.TABLE,
+            strategy = GenerationType.TABLE, // Set strategy to use a table as PK controller
             generator = "tool_id_table"
     )
     @TableGenerator(

@@ -19,7 +19,7 @@ public interface ShinobiRepository extends JpaRepository<Shinobi, Long> {
 
     @Query(
             value = "SELECT * FROM shinobi u WHERE u.village = 'KONOHAGAKURE'",
-            nativeQuery = true)
+            nativeQuery = true) // create a native query
     List<Shinobi> findAllKonohagakure();
 
 }
