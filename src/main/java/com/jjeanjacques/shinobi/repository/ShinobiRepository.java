@@ -17,4 +17,9 @@ public interface ShinobiRepository extends JpaRepository<Shinobi, Long> {
     @Query("SELECT s FROM Shinobi s WHERE name LIKE %:name%")
     List<Shinobi> findByNameLikeQuery(String name);
 
+    @Query(
+            value = "SELECT * FROM shinobi u WHERE u.village = 'KONOHAGAKURE'",
+            nativeQuery = true)
+    List<Shinobi> findAllKonohagakure();
+
 }
