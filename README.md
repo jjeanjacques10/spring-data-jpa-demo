@@ -5,7 +5,7 @@
     <p align="center">
       Repository to explain Spring Data JPA concepts
       <br />
-      <a href="https://medium.com/@jjeanjacques10/pt-br-spring-data-jpa-overview-d04fb565aa07"><strong>Explore the article »</strong></a>
+      <a href="https://jjeanjacques10.medium.com/pt-br-spring-data-jpa-overview-d04fb565aa07"><strong>Explore the article »</strong></a>
       <br />
       <br />
       <a href="https://github.com/jjeanjacques10/spring-data-jpa-demo/issues">Report Bug</a>
@@ -127,7 +127,7 @@ Example of the response:
 
 ## Article
 
-* [[PT-BR] Spring Data JPA - Overview](https://medium.com/@jjeanjacques10/pt-br-spring-data-jpa-overview-d04fb565aa07)
+* [[PT-BR] Spring Data JPA - Overview](https://jjeanjacques10.medium.com/pt-br-spring-data-jpa-overview-d04fb565aa07)
 
 ## Author
 
